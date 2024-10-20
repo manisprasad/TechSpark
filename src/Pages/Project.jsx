@@ -1,6 +1,7 @@
 import React from 'react';
 import ProjectCard from '../components/ProjectCard.jsx';
 import img from "../../public/images/img.png"; // Import the ProjectCard component
+import {Carousel} from "@/components/ui/carousel.jsx";
 
 const projects = [
     {
@@ -17,6 +18,39 @@ const projects = [
         imageUrl: "https://example.com/project3-image.jpg",
         projectUrl: "https://example.com/project3",
         projectName: "Awesome Project 3",
+    },
+    {
+        imageUrl: img,
+        projectUrl: "https://example.com/project2",
+        projectName: "Awesome Project 2",
+    },{
+        imageUrl: img,
+        projectUrl: "https://example.com/project2",
+        projectName: "Awesome Project 2",
+    },{
+        imageUrl: img,
+        projectUrl: "https://example.com/project2",
+        projectName: "Awesome Project 2",
+    },{
+        imageUrl: img,
+        projectUrl: "https://example.com/project2",
+        projectName: "Awesome Project 2",
+    },{
+        imageUrl: img,
+        projectUrl: "https://example.com/project2",
+        projectName: "Awesome Project 2",
+    },{
+        imageUrl: img,
+        projectUrl: "https://example.com/project2",
+        projectName: "Awesome Project 2",
+    },{
+        imageUrl: img,
+        projectUrl: "https://example.com/project2",
+        projectName: "Awesome Project 2",
+    },{
+        imageUrl: img,
+        projectUrl: "https://example.com/project2",
+        projectName: "Awesome Project 2",
     },
     // ...other projects
 ];
@@ -38,6 +72,7 @@ const ShowProjects = () => {
                     />
                 ))}
             </div>
+            <Carousel />
         </>
     );
 };
